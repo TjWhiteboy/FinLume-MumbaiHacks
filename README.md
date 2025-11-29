@@ -1,246 +1,198 @@
-🌟 FinLume – AI-Powered Personal Financial Coaching System
+<img width="1920" height="1080" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/8a0e681e-d396-495f-b529-d12fe74718ec" />🌟 FinLume – Your Personal AI Financial Coach
 
-FinLume is an intelligent financial coaching platform built to help individuals—especially gig workers, freelancers, and users with irregular income—manage their finances smarter.
-It uses AI-driven analysis, personalized recommendations, automatic spending categorization, and goal tracking to guide users toward better financial habits.
+Managing money can feel overwhelming—especially when income isn’t stable and expenses vary monthly.
+FinLume brings clarity by acting like a friendly financial coach that understands your habits and guides you with simple, personalized advice.
 
-🚀 Live AI Agent (Google AI Studio Deployment)
-
-You can interact with the FinLume AI Coach here:
+🔗 Try the AI Coach
 
 👉 FinLume AI Coach (Google AI Studio)
-🔗 https://aistudio.google.com/apps/drive/1zr-F7wE7SSK47Cn-_Ue90KGD1GIqDnyY?showAssistant=true&showPreview=true&resourceKey=
+https://aistudio.google.com/apps/drive/1zr-F7wE7SSK47Cn-_Ue90KGD1GIqDnyY?showAssistant=true&showPreview=true&resourceKey=
 
-📌 Table of Contents
+❤️ Why FinLume Exists
 
-About FinLume
+FinLume was created to help people who want:
 
-Key Features
+   Clear insights instead of confusing spreadsheets
+   
+   Friendly, human-like financial advice
+   
+   Simple explanations of income, spending & savings
+   
+   A tool that works even with irregular income
+   
+   A safe space to learn how to save better
 
-Tech Stack
+FinLume feels like a supportive friend who:
 
-Project Structure
+   Notices your spending patterns
+   
+   Helps you avoid overspending
+   
+   Encourages better saving habits
+   
+   Explains your financial month in simple words
+   
+   Helps set goals and track progress
 
-Installation & Setup
+🌟 Features Overview
+🗣️ AI Financial Coach (Human-like Conversation)
 
-Guest Login
+You can ask questions like:
 
-How the AI Works
+   “Why did I spend so much this month?”
+   
+   “How can I save more?”
+   
+   “What if I reduce my food spending by 20%?”
 
-Screenshots
+The AI responds with:
+   
+   Clear summaries
+   
+   Personalized tips
+   
+   Step-by-step advice
+   
+   Friendly explanations
 
-Future Improvements
-
-Contributing
-
-License
-
-🧠 About FinLume
-
-FinLume provides financial clarity by:
-
-Tracking spending
-
-Understanding income patterns
-
-Detecting overspending
-
-Identifying risks
-
-Suggesting actionable saving strategies
-
-Offering a conversational AI financial coach
-
-Visualizing expenses with charts
-
-It simplifies finance for users who want simple, smart, and personalized guidance.
-
-🌟 Key Features
 🔐 Login + Guest Mode
 
-Secure login for users
+   You can explore the app with or without an account.
+   
+   Demo Credentials
+   Email: demo@finlume.ai
+   Password: FinLume@123
+   
+   Guest Mode Includes
+   
+   Sample financial data
+   
+   Pre-loaded transactions
+   
+   Mock accounts
+   
+   AI insights
 
-Instant Guest Access to explore the app
+📊 Beautiful Dashboard
 
-Demo credentials included
+   Income vs Expenses chart
+   
+   Category-wise spending breakdown
+   
+   AI-generated insights section
+   
+   Savings trends overview
+   
+   Monthly financial summary
 
-🧩 AI Financial Coach (Google AI Studio Agent)
+🏦 Mock Bank Accounts (Safe for Testing)
 
-Personalized financial advice
+   Realistic sample transactions
+   
+   Auto-categorized spending patterns
+   
+   No real financial data required
+   
+   Safe for demos, presentations, and learning
 
-Month summary insights
+🎯 Goal Tracking System
 
-Overspending detection
-
-Goal-based suggestions
-
-“What-if” financial simulations
-
-Simple, friendly conversation style
-
-🏦 Mock Bank Account Integration
-
-Sample accounts & transactions
-
-Automatically categorized expenses
-
-Multi-month data simulation
-
-📊 Interactive Dashboard
-
-Monthly income vs expenses graph
-
-Category-wise spending breakdown
-
-AI-generated insights
-
-Savings pattern visualization
-
-🎯 Goal Tracking
-
-Create & monitor saving goals
-
-AI advice to stay on track
-
-🧠 AI Insights Engine
-
-Detects spending patterns
-
-Highlights unusual transactions
-
-Gives actionable financial tips
+You can:
+   
+   Create personal saving goals
+   
+   Monitor progress visually
+   
+   Get coaching suggestions to stay on track
 
 🛠️ Tech Stack
-Frontend
+   Frontend
+   
+   React (TypeScript)
+   
+   TailwindCSS
+   
+   Recharts (charts & graphs)
+   
+   AI Layer
+   
+   Google AI Studio (Gemini)
+   
+   Custom system prompts
+   
+   JSON-structured insight generation
 
-React + TypeScript
+Backend Simulation
 
-Tailwind CSS
+   Mock data service (local)
+   
+   Simulated API calls
 
-Recharts (graphs)
+Local authentication logic
 
-AI Layer
+📂 Project Structure (At a Glance)
+src/
+ ├── components/       # UI Screens (Dashboard, Login, Chat, Goals)
+ ├── services/         # AI Logic & Mock Backend
+ ├── context/          # App-wide State Management
+ ├── utils/            # Helper Functions
+ └── App.tsx           # Main App Routing
 
-Google AI Studio (Gemini)
-
-Custom system prompts
-
-JSON structured insight model
-
-Mock Backend
-
-Local mock data service
-
-Client-side authentication
-
-API-like abstraction for transactions & goals
-
-📂 Project Structure
-/src
- ├── components
- │    ├── Dashboard.tsx
- │    ├── CoachChat.tsx
- │    ├── Login.tsx
- │    ├── Goals.tsx
- │    └── TransactionForm.tsx
- │
- ├── services
- │    ├── geminiService.ts
- │    ├── mockDataService.ts
- │    └── authService.ts
- │
- ├── context
- │    └── AppContext.tsx
- │
- ├── utils
- │    └── helpers.ts
- │
- ├── assets
- │
- └── App.tsx
-
-⚙️ Installation & Setup
+🚀 How to Run the Project
 1️⃣ Clone the repository
-git clone https://github.com/your-username/finlume.git
+git clone https://github.com/yourname/finlume.git
 cd finlume
 
 2️⃣ Install dependencies
 npm install
 
-3️⃣ Start the development server
+3️⃣ Start the app
 npm run dev
-
 
 The app runs on:
 
-http://localhost:5173
+👉 http://localhost:5173
 
-👤 Guest Login
+🖼️ Screenshots (Add Your Own)
 
-You can explore FinLume without creating an account.
+Suggested screenshots:
+Login Page:
+<img width="1920" height="1080" alt="Screenshot (218)" src="https://github.com/user-attachments/assets/33782218-5c23-494c-9e6c-39257a9ecc3f" />
+Connect Your Accounts:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/d1ec26fa-8046-4110-a45d-65aa584b7d37" />
+Financial Overview:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24c1749e-773b-40f6-872a-005fdc16468c" />
+Recent Transactions:
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/ae5b5788-78ce-4e82-bc52-be07cd5418a4" />
+FinLume Coach
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/24bfe369-9cd7-46be-94a5-ab3e75f1d3b6" />
+Your Saving Goals
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/4b6d8222-9c12-464e-bb31-18f9c6050cef" />
 
-Demo Credentials
-Email: demo@finlume.ai
-Password: FinLume@123
+🚧 Planned Improvements
 
+Possible additions in the future:
 
-Or choose Guest Access on the login screen to load sample financial data instantly.
+Real bank API integration
 
-🤖 How the AI Works
+Overspending alerts
 
-FinLume uses a Google AI Studio agent built with:
-
-A custom system prompt
-
-Financial context summarization
-
-Spending analysis
-
-Savings strategy generation
-
-Explainable AI reasoning
-
-Insight generation in JSON format
-
-The frontend sends:
-
-Monthly transactions
-
-Category totals
-
-Goals
-
-Account balances
-
-The AI responds with:
-
-Insights
-
-Explanations
-
-🖼️ Screenshots
-
-<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/726ccb1a-e2d8-4b81-8562-6c751b494136" />
-
-/screenshots/coaching.png
-/screenshots/insights.png
-
-🚀 Future Improvements
-
-Real bank API integration (Plaid / Salt / Yodlee)
-
-Notifications for overspending
-
-Multi-user financial profiles
-
-Secure cloud database
+Subscription tracking
 
 Income forecasting
 
-Subscription tracking automation
+Downloadable monthly reports
 
 Mobile app version
 
 🤝 Contributing
 
-Pull requests are welcome!
-For major changes, please open an issue first to discuss your ideas.
+Interested in improving FinLume?
+
+Fork the repository
+
+Make your changes
+
+Submit a pull request
+
+Collaboration is always welcome!
