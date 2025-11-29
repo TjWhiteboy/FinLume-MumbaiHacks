@@ -217,16 +217,11 @@ Insights
 
 Explanations
 
-Step-by-step recommendations
-
-Simulations (“What if I save more?”)
-
 🖼️ Screenshots
 
 (Replace these with your own screenshots)
 
-/screenshots/dashboard.png
-/screenshots/login.png
+"C:\Users\TJ WHITE\OneDrive\Pictures\Screenshots 1\Screenshot (216).png"/screenshots/login.png
 /screenshots/coaching.png
 /screenshots/insights.png
 
