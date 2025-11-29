@@ -219,9 +219,8 @@ Explanations
 
 🖼️ Screenshots
 
-(Replace these with your own screenshots)
+<img width="1919" height="1039" alt="image" src="https://github.com/user-attachments/assets/726ccb1a-e2d8-4b81-8562-6c751b494136" />
 
-"C:\Users\TJ WHITE\OneDrive\Pictures\Screenshots 1\Screenshot (216).png"/screenshots/login.png
 /screenshots/coaching.png
 /screenshots/insights.png
 
