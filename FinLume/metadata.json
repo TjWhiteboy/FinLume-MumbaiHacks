@@ -1,0 +1,7 @@
+{
+  "name": "Copy of FinLume",
+  "description": "An intelligent financial coaching agent designed for gig workers and freelancers to track irregular income, visualize spending, and receive AI-powered savings advice.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}
